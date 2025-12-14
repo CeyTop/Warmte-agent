@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warmte agent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Warmte agent</h1>
+        </header>
+        
+        <div class="chat-messages" id="chatMessages">
+            <!-- Berichten worden hier dynamisch toegevoegd -->
+        </div>
+        
+        <div class="chat-suggestions" id="chatSuggestions">
+            <!-- Knoppen worden hier dynamisch toegevoegd -->
+        </div>
+        
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                id="userInput" 
+                class="chat-input" 
+                placeholder="Typ je antwoord hier..."
+                autocomplete="off"
+            >
+            <button id="sendButton" class="send-button">Verzend</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
