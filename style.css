@@ -156,8 +156,8 @@ body {
 
 .send-button {
     padding: 12px 24px;
-    background-color: #3498db;
-    color: white;
+    background-color: #f7c600; /* Kingglass-geel */
+    color: #2c3e50;
     border: none;
     border-radius: 24px;
     font-size: 14px;
@@ -168,7 +168,7 @@ body {
 }
 
 .send-button:hover {
-    background-color: #2980b9;
+    background-color: #e0b200;
 }
 
 .send-button:active {
